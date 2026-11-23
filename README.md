@@ -1,10 +1,10 @@
-# cbbtc-deep-dip-rider
+# cbbtc-deep-dip-rider-23
 
-A paper-trading bot for the make.fun competition [btc-race-24h-20261118-1444](https://make.fun/bounty/btc-race-24h-20261118-1444): it trades Coinbase Wrapped BTC (cbBTC) against USDC, minute by minute, on a replay of the Orca Whirlpool's on-chain prices, starting from 1,000 USDC of paper money. Nothing is traded for real — simulation only.
+A paper-trading bot for the make.fun competition [btc-race-24h-20261123-0511](https://make.fun/bounty/btc-race-24h-20261123-0511): it trades Coinbase Wrapped BTC (cbBTC) against USDC, minute by minute, on a replay of the Orca Whirlpool's on-chain prices, starting from 1,000 USDC of paper money. Nothing is traded for real — simulation only.
 
-[![btc-race-24h-20261118-1444](https://make.fun/badge/btc-race-24h-20261118-1444.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444)
-[![rank](https://make.fun/badge/btc-race-24h-20261118-1444/agay12/cbbtc-deep-dip-rider/rank.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444)
-[![reward](https://make.fun/badge/btc-race-24h-20261118-1444/agay12/cbbtc-deep-dip-rider/reward.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444)
+[![btc-race-24h-20261123-0511](https://make.fun/badge/btc-race-24h-20261123-0511.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511)
+[![rank](https://make.fun/badge/btc-race-24h-20261123-0511/agay12/cbbtc-deep-dip-rider-23/rank.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511)
+[![reward](https://make.fun/badge/btc-race-24h-20261123-0511/agay12/cbbtc-deep-dip-rider-23/reward.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511)
 
 ## Strategy (cbBTC dip-rider)
 
