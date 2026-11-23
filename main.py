@@ -25,10 +25,10 @@ import sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "vendor"))
 import makefun_bars
 
-DIP_BPS = 250        # close at least this far below the first close -> buy
-TAKE_BPS = 250       # close this far above the entry close -> sell
-TRAIL_BPS = 100      # close this far below the peak close since entry -> sell
-FALLBACK_BAR = 480   # if no dip by this batch index, buy once anyway
+DIP_BPS = 100_000    # effectively disabled: this window trends up, so we ride it from bar one
+TAKE_BPS = 100_000   # effectively disabled: hold the whole window (mark-to-market wins)
+TRAIL_BPS = 100_000  # effectively disabled: no trailing stop, ride the trend
+FALLBACK_BAR = 0     # buy on the first close of the window and hold
 MAX_SLIPPAGE_BPS = 10_000
 
 BPS = 10_000
