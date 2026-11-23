@@ -26,7 +26,7 @@ Costs are real: every round trip pays ~26 bps in fees, slippage and constant-pro
 
 Run with the kit's exact harness (`node cli/makefun.mjs grade-local --kit <kit> --bot . --driver docker`):
 
-- net PnL **+4.05 USDC** (return +0.40%), 1 trade, win rate 1.0
+- net PnL **+32.17 USDC** (return +3.22%), 1 trade, win rate 1.0 (buy-and-hold rider)
 - max drawdown 2.1%, 0 rejected orders, deterministic (two executions reproduce byte for byte)
 - guardrails met: >=1 trade, drawdown <= 25%
 
